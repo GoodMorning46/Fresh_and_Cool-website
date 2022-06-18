@@ -17,7 +17,8 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "clean-js": "npx prettier --write '*.js'",
-        "prettier": "npx prettier --write ."
+        "prettier": "npx prettier --write .",
+        "eslint": "npx eslint './*.js'"
     },
     "eslintConfig": {
         "extends": [
