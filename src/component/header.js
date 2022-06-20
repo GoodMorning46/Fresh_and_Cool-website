@@ -8,7 +8,7 @@ const Header = () => {
          <nav>
             <div class="container flexer">
                 <ul class="flexer menu1">
-                    <li><a href="/" title="acceuil">Acceuil<div class="test"></div></a></li>
+                    <li><a href="/" title="acceuil">Accueil<div class="test"></div></a></li>
                     <li><a  href="event" title="Event">Event<div class="test"></div></a></li>
                     <li><a  href="faq" title="FAQ">FAQ<div class="test"></div></a></li>
                 </ul>
