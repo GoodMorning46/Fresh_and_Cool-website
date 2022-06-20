@@ -6,7 +6,7 @@ import Header from "../component/header";
 
 function Home() {
     return (
-      <div className="Home">
+      <div className="Home" id="Home">
         <Header />
        <div>
         <p> test</p>

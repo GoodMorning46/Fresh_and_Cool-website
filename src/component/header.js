@@ -8,15 +8,14 @@ const Header = () => {
          <nav>
             <div class="container flexer">
                 <ul class="flexer menu1">
-                    <li><a title="acceuil">Acceuil<div class="test"></div></a></li>
-
-                    <li><a  title="Event">Event<div class="test"></div></a></li>
-                    <li><a  title="Contact">Contact<div class="test"></div></a></li>
+                    <li><a href="/" title="acceuil">Acceuil<div class="test"></div></a></li>
+                    <li><a  href="event" title="Event">Event<div class="test"></div></a></li>
+                    <li><a  href="faq" title="FAQ">FAQ<div class="test"></div></a></li>
                 </ul>
 
 
                 <div class="menu2">
-                     <a>Connexion</a>
+                     <a href="connexion">Connexion</a>
                  </div>
             </div>
         </nav>
