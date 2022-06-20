@@ -1,3 +1,5 @@
+import React, { Component }  from 'react';
+
 function NotFound() {
   return (
     <div className="NotFound">
