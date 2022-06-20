@@ -7,6 +7,7 @@ const FAQ = () => {
         <div className="FAQ">
             <Header />
             <h1>FAQ</h1>
+            <h2>question 1</h2>
         </div>
     );
 };
