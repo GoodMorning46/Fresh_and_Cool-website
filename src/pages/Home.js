@@ -1,11 +1,14 @@
-import React, { Component }  from 'react';
+import React from 'react';
+// import Navigation from "./component/Navigation";
+// <Navigation/>
+
 
 function Home() {
-    return ( 
-    <div className = "Home" >
-        <p> Test </p> 
-    </div>
-    
+    return (
+      <div className="Home">
+        
+        <p>Test</p>
+      </div>
     );
 }
 
