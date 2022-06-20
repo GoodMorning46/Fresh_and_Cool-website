@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
+// eslint-disable-next-line
 import "./App.css";
 import NotFound from "./pages/NotFound";
 import FAQ from "./pages/faq";

@@ -21,7 +21,8 @@
     "clean-js": "npx prettier --write '*.js'",
     "prettier": "npx prettier --write .",
     "prepare": "husky install",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "eslint": "npx eslint './src/*.{js,ts,json}'"
   },
   "browserslist": {
     "production": [
