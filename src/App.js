@@ -12,7 +12,6 @@ function App() {
       <Route path="/" exact component={Home} /> 
       <Route path="/FAQ" exact component={FAQ} /> 
       <Route component={NotFound} />
-      <Route path="faq" exact component={FAQ} />
     </Switch>
    </BrowserRouter>
   );
