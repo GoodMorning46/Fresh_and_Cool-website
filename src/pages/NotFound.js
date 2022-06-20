@@ -6,7 +6,7 @@ function NotFound() {
     <div className="NotFoundContainer" >
       <span className="NFText">
         <p className="NotFoundText">Oopsie</p>
-        <p>The page you are looking for is not available</p>
+        <p>La page que vous avez à laquelle vous tentez d'accéder n'existe pas</p>
       </span>
       <img alt="Not Found" src={require('../assets/NotFound.png')} ></img>
     </div>
