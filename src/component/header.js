@@ -9,7 +9,7 @@ const Header = () => {
           <ul class="flexer menu1">
             <li>
               <a href="/" title="acceuil">
-                Acceuil<div class="test"></div>
+                Accueil<div class="test"></div>
               </a>
             </li>
             <li>

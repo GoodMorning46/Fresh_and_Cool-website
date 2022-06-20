@@ -1,0 +1,20 @@
+.FAQ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+.FAQQuestion {
+  width: 650px;
+}
