@@ -10,6 +10,7 @@ function App() {
     <Switch>
       <Route path="/" exact component={Home} /> 
       <Route component={NotFound} />
+      <Route path="faq" exact component={FAQ} />
     </Switch>
    </BrowserRouter>
   );

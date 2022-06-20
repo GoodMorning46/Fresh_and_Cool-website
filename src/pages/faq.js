@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from "./component/Navigation";
+import './CSS/faq.css'
 
 const FAQ = () => {
     return (
