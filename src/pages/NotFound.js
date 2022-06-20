@@ -1,16 +1,14 @@
 import React from 'react';
+import './CSS/NotFound.css';
 
 function NotFound() {
-  // const notFoundStyle = {
-  //   backgroundColor = "#C46013",
-  //   height = "100vh",
-  //   width = "100vw",
-  //   textAlign = "center",
-  // }
   return (
-    <div className="NotFound" >
-      <p>404 - Not Found</p>
-      {/* <Link to="/">Cliquez ici pour retourner sur la page d'accueil</Link> */}
+    <div className="NotFoundContainer" >
+      <span className="NFText">
+        <p className="NotFoundText">Oopsie</p>
+        <p>The page you are looking for is not available</p>
+      </span>
+      <img src={require('../assets/NotFound.png')} ></img>
     </div>
   );
 }
