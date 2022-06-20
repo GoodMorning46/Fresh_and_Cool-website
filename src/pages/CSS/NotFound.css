@@ -1,4 +1,5 @@
 .NotFoundContainer {
+<<<<<<< HEAD
     padding: 0;
     margin: 0;
     display: flex;
@@ -15,3 +16,20 @@
   .NFText {
     margin-right: 120px;
   }
+=======
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.NotFoundText {
+  font-size: 72px;
+}
+
+.NFText {
+  margin-right: 120px;
+}
+>>>>>>> 4913b385bf7b48b74c6815e3b52fe6cf567f7f53
