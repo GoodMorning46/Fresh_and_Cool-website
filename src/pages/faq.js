@@ -1,10 +1,11 @@
 import React from 'react';
-import Navigation from "./component/Navigation";
+import Header from "../component/header";
+//import Navigation from "../component/Navigation";
 
 const FAQ = () => {
     return (
         <div className="FAQ">
-            <Navigation/>  
+            <Header />
             <h1>FAQ</h1>
         </div>
     );
