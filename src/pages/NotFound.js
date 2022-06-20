@@ -8,7 +8,7 @@ function NotFound() {
         <p className="NotFoundText">Oopsie</p>
         <p>The page you are looking for is not available</p>
       </span>
-      <img src={require('../assets/NotFound.png')} ></img>
+      <img alt="Not Found" src={require('../assets/NotFound.png')} ></img>
     </div>
   );
 }
