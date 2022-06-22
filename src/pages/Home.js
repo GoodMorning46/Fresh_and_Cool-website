@@ -1,5 +1,7 @@
 import React from "react";
 import Header from "../component/header";
+import Footer from "../component/footer";
+
 //import Navigation from "../component/Navigation";
 // <Navigation/>
 
@@ -8,8 +10,9 @@ function Home() {
     <div className="Home" id="Home">
       <Header />
       <div>
-        <p> test4</p>
+        <p> test5</p>
       </div>
+      <Footer />
     </div>
   );
 }

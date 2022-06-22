@@ -5,13 +5,15 @@ import Home from "./pages/Home";
 import "./App.css";
 import NotFound from "./pages/NotFound";
 import FAQ from "./pages/faq";
+import Event from "./pages/event";
 
 function App() {
   return (
     <BrowserRouter>
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/FAQ" exact component={FAQ} />
+        <Route path="/faq" exact component={FAQ} />
+        <Route path="/event" exact component={Event} />
         <Route component={NotFound} />
       </Switch>
     </BrowserRouter>
