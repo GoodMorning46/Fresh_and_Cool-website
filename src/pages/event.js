@@ -9,7 +9,7 @@ const Event = () => {
       <Header />
       <div className="event">
         <p>Test event</p>
-       </div>
+      </div>
       <Footer />
     </div>
   );
