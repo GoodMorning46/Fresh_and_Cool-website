@@ -1,4 +1,5 @@
 [[redirects]]
-  from = "/*"
-  to = "/NotFound.js"
+  from = "/gated-path"
   status = 200
+  conditions = {Role = ["admin"]}
+  force = true
