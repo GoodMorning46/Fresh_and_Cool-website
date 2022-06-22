@@ -1,9 +1,8 @@
 .FAQ {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   margin-top: 20px;
 }
 
@@ -17,4 +16,8 @@ h2 {
 
 .FAQQuestion {
   width: 650px;
+}
+
+.FAQQuestion img {
+  width: 20%;
 }
