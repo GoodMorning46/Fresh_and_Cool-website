@@ -10,4 +10,3 @@ Le projet est disponible sur cette adresse (https://vetementcool.netlify.app/).
 - Benjamin
 
 ## Test
-
