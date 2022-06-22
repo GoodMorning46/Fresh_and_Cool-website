@@ -1,5 +1,7 @@
 import React from "react";
 import Header from "../component/header";
+import Footer from "../component/footer";
+
 import "./CSS/faq.css";
 
 const FAQ = () => {
@@ -24,6 +26,7 @@ const FAQ = () => {
           <img alt="Nope" src={require("../assets/Nope.jpg")}></img>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
