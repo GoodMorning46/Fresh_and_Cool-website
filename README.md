@@ -9,8 +9,6 @@ Le projet est disponible sur cette adresse (https://vetementcool.netlify.app/).
 - Christian
 - Benjamin
 
-## Test
-
 ## Attendue
 
 Arriver sur la page d'acceuil avec un filtre
