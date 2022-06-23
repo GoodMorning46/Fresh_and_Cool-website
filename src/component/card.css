@@ -1,0 +1,10 @@
+.img {
+  width: 40%;
+}
+
+.card {
+  border: solid;
+  width: 20%;
+  padding: 1%;
+  margin: 10%;
+}

@@ -7,15 +7,13 @@ const Footer = () => {
       <div className="w40 flexer">
         <div className="block2">
           <div className="marque">
-            <span>Nom de marque</span>
+            <span>Vêtement-Cool</span>
           </div>
 
           <div className="links flexer w80 marg">
-            <a href="/">reseaux</a>
-            <a href="/">reseaux</a>
-            <a href="/">reseaux</a>
-            <a href="/">reseaux</a>
-            <a href="/">reseaux</a>
+            <a href="/">Insta</a>
+            <a href="/">TikTok</a>
+            <a href="/">Linkedin</a>
           </div>
         </div>
       </div>

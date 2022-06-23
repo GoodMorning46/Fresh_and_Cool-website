@@ -11,7 +11,7 @@ const FAQ = () => {
         <h1>FAQ</h1>
         <div className="FAQQuestion">
           <h2>Pourquoi vos produits sont-ils aussi chers ?</h2>
-          <p>T'as cru on allait du H&M ?</p>
+          <p>T'as cru on allait faire du H&M ?</p>
         </div>
         <div className="FAQQuestion">
           <h2>Du coup vous vendez des contrefaçons ?</h2>
