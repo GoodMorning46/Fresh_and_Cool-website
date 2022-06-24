@@ -1,7 +1,7 @@
 .footer {
   padding-top: 1%;
   padding-bottom: 0.5%;
-  border-top: 1px solid;
+  border-top: 1px solid #dbdbdb;
   width: 100%;
   margin: 0 auto;
 }
@@ -87,6 +87,22 @@
 
 .marg {
   margin: 0 auto;
+}
+
+.links a {
+  width: 20%;
+}
+
+.instagram {
+  width: 30%;
+}
+
+.tiktok {
+  width: 30%;
+}
+
+.fb {
+  width: 45%;
 }
 
 /* _________ responsive ___________ */
