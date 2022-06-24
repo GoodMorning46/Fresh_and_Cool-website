@@ -3,8 +3,8 @@ import "./product.css";
 import { faker } from '@faker-js/faker';
 
 
-const color = faker.commerce.color();
-const department = faker.commerce.department();
+// const color = faker.commerce.color();
+// const department = faker.commerce.department();
 const price = faker.commerce.price(50, 200, 2, '$');
 const product = faker.commerce.product();
 const description = faker.commerce.productDescription();
@@ -20,9 +20,8 @@ const Product = () => {
             </div>
             <div className="image">
                 <img 
-                class="fit-picture"
                 src={image}
-                alt="Grapefruit slice atop a pile of other slices">
+                alt="Product">
                 </img>  
             </div>
             <div className="description">

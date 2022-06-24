@@ -1,8 +1,9 @@
-.card{
-width: 13%;
-margin: 30px;
-border-radius: 4%;
-border: 1px solid #dbdbdb;
+.card {
+    width: 13%;
+    min-width: 230px;
+    margin: 20px;
+    border-radius: 4%;
+    border: 1px solid #dbdbdb;
 }
 
 .flexer {
@@ -10,24 +11,24 @@ border: 1px solid #dbdbdb;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-  }
+}
 
-.grey{
+.grey {
     background-color: #f2f2f2;
 }
 
-.name{
+.name {
     margin: 0 auto;
 
 }
 
-.image{
+.image {
     padding-top: 20px;
     width: 100%;
     text-align: center;
 }
 
-.description{
+.description {
     margin: 0 auto;
     width: 100%;
     margin-left: 20%;
@@ -36,14 +37,13 @@ border: 1px solid #dbdbdb;
     text-align: center;
 }
 
-.price{
+.price {
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
 }
 
-.price p{
+.price p {
     font-weight: bold;
 }
-
