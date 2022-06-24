@@ -7,34 +7,31 @@ const Footer = () => {
       <div className="w40 flexer">
         <div className="block2">
           <div className="marque">
-            <img 
-                  src={require("../assets/logo.png")}
-                  alt="Vêtement cool">
-            </img> 
+            <img src={require("../assets/logo.png")} alt="Vêtement cool"></img>
           </div>
 
           <div className="links flexer w80 marg">
             <a href="/">
-              <img 
-                    className="instagram"
-                    src={require("../assets/insta.png")}
-                    alt="Instagram">
-              </img> 
+              <img
+                className="instagram"
+                src={require("../assets/insta.png")}
+                alt="Instagram"
+              ></img>
             </a>
 
             <a href="/">
-              <img 
-                      className="tiktok"
-                      src={require("../assets/tiktok.png")}
-                      alt="TikTok">
-                </img> 
+              <img
+                className="tiktok"
+                src={require("../assets/tiktok.png")}
+                alt="TikTok"
+              ></img>
             </a>
             <a href="/">
-              <img 
-                        className="fb"
-                        src={require("../assets/facebook.png")}
-                        alt="Facebook">
-                  </img> 
+              <img
+                className="fb"
+                src={require("../assets/facebook.png")}
+                alt="Facebook"
+              ></img>
             </a>
             <a href="/">reseaux</a>
             <a href="/">reseaux</a>
