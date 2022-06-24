@@ -7,37 +7,60 @@ const Footer = () => {
       <div className="w40 flexer">
         <div className="block2">
           <div className="marque">
-            <img 
-                  src={require("../assets/logo.png")}
-                  alt="Vêtement cool">
-            </img> 
+            <img src={require("../assets/logo.png")} alt="Vêtement cool"></img>
           </div>
 
           <div className="links flexer w80 marg">
-            <a href="/">
-              <img 
-                    className="instagram"
-                    src={require("../assets/insta.png")}
-                    alt="Instagram">
-              </img> 
-            </a>
 
-            <a href="/">
-              <img 
-                      className="tiktok"
-                      src={require("../assets/tiktok.png")}
-                      alt="TikTok">
-                </img> 
-            </a>
-            <a href="/">
-              <img 
-                        className="fb"
-                        src={require("../assets/facebook.png")}
-                        alt="Facebook">
-                  </img> 
-            </a>
-            <a href="/">reseaux</a>
-            <a href="/">reseaux</a>
+            <div className="center">
+              <a href="/">
+                <img
+                  className="instagram"
+                  src={require("../assets/insta.png")}
+                  alt="Instagram"
+                ></img>
+              </a>
+            </div>
+            
+            <div className="center">
+              <a href="/">
+                <img
+                  className="tiktok"
+                  src={require("../assets/tiktok.png")}
+                  alt="TikTok"
+                ></img>
+              </a>
+            </div>
+
+            <div className="center">
+              <a href="/">
+                <img
+                  className="fb"
+                  src={require("../assets/facebook.png")}
+                  alt="Facebook"
+                ></img>
+              </a>
+            </div>
+
+            <div className="center">
+              <a href="/">
+                <img
+                    className="pinterest"
+                    src={require("../assets/pinterest.png")}
+                    alt="Pinterest"
+                  ></img>
+              </a>
+            </div>
+
+            <div className="center">
+              <a href="/">
+                <img
+                      className="twitter"
+                      src={require("../assets/twitter.png")}
+                      alt="Twitter"
+                ></img>
+              </a>
+            </div>
           </div>
         </div>
       </div>
