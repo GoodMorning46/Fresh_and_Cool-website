@@ -8,8 +8,8 @@ const Header = () => {
         <div className="container flexer">
           <ul className="flexer menu1">
             <li>
-              <a href="/" title="acceuil">
-                Accueil<div className="test"></div>
+              <a href="/" title="accueil">
+              Accueil<div className="test"></div>
               </a>
             </li>
             <li>

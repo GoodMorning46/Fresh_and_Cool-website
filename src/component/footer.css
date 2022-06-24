@@ -39,8 +39,8 @@
 }
 
 .links {
-  padding-top: 30px;
-  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .cg {
@@ -89,21 +89,40 @@
   margin: 0 auto;
 }
 
-.links a{
+.center{
+
   width: 20%;
 }
 
-.instagram{
-  width: 30%;
+.center a {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 
-.tiktok{
-  width: 30%;
+.instagram {
+  width: 60%;
 }
 
-.fb{
-  width: 45%;
+.tiktok {
+  width: 60%;
 }
+
+.fb {
+  width: 90%;
+}
+
+.pinterest {
+  width: 60%;
+}
+
+.twitter {
+  width: 60%;
+  text-align: center;
+}
+
+
 
 /* _________ responsive ___________ */
 
