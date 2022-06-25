@@ -33,7 +33,9 @@ const Header = () => {
 
           <div className="menu2">
             <a href="connexion">Connexion</a>
-            <button className="button1" href="enregistrer">S'enregistrer</button>
+            <button className="button1" href="enregistrer">
+              S'enregistrer
+            </button>
           </div>
         </div>
       </nav>
