@@ -1,3 +1,5 @@
+
+
 .header img {
   width: 100px;
   height: 13px;
@@ -9,7 +11,7 @@
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .menu_gauche {
@@ -19,7 +21,7 @@ a {
 
 /* ------------------------------Nav------------------------ */
 nav {
-  background-color: #f2f2f2;
+  background-color: #1F5BFA;
   position: relative;
   width: 100%;
 }
@@ -31,13 +33,14 @@ nav {
 }
 
 nav .menu2 {
-  width: 30%;
+  width: 20%;
   text-align: right;
 }
 
 .menu2 {
   display: flex;
   justify-content: space-around;
+  margin-right: 5%;
 }
 
 .menu1 li {
@@ -47,18 +50,17 @@ nav .menu2 {
 }
 
 nav a {
-  font-size: 15px;
+  font-size: 13px;
   padding: 15px 0;
   text-align: center;
   position: relative;
 }
 
-
 .test {
   position: absolute;
   height: 5px;
   width: 100%;
-  background-color: black;
+  background-color: white;
   bottom: 0;
   opacity: 0;
   transition: 0.5s;
@@ -66,4 +68,14 @@ nav a {
 
 nav a:hover .test {
   opacity: 1;
+}
+
+.button1 {
+  width: 40%;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 15px;
+  color: #1F5BFA
 }
