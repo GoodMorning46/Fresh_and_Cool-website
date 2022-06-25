@@ -14,7 +14,7 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a href="Vetement" title="Vetement">
+                <a href="event" title="Vetement">
                   Vêtements<div className="test"></div>
                 </a>
               </li>

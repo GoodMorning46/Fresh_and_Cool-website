@@ -7,19 +7,30 @@ const Footer = () => {
       <div className="w40 flexer">
         <div className="block2">
           <div className="marque">
-            <img className="logo" src={require("../assets/Logo_final.png")} alt="Fresh and Cool"></img>
+            <img
+              className="logo"
+              src={require("../assets/Logo_final.png")}
+              alt="Fresh and Cool"
+            ></img>
           </div>
 
           <div className="links flexer w80 marg">
             <a href="/">
-              <img className="instagram" src={require("../assets/insta.png")} alt="Instagram"></img>
+              <img
+                className="instagram"
+                src={require("../assets/insta.png")}
+                alt="Instagram"
+              ></img>
             </a>
 
             <a href="/">
-              <img className="tiktok" src={require("../assets/tiktok.png")} alt="TikTok"></img>
-            </a> 
+              <img
+                className="tiktok"
+                src={require("../assets/tiktok.png")}
+                alt="TikTok"
+              ></img>
+            </a>
           </div>
-          
         </div>
       </div>
 
@@ -35,7 +46,7 @@ const Footer = () => {
                 <a href="/">
                   <li>Commandes et Paiements</li>
                 </a>
-                
+
                 <a href="/">
                   <li>Suivi de commande</li>
                 </a>
@@ -59,7 +70,7 @@ const Footer = () => {
                 <a href="/">
                   <li>Réduction Étudiants</li>
                 </a>
-                
+
                 <a href="/">
                   <li>Cartes Cadeaux</li>
                 </a>
