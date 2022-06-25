@@ -1,6 +1,6 @@
 # Projet de site vitrine pour une agence évementielle
 
-Le projet est disponible sur cette adresse (<https://vetementcool.netlify.app/>).
+Le projet est disponible sur cette adresse (<https://fresh-and-cool.netlify.app/>).
 
 ## Le projet
 

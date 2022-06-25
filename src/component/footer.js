@@ -7,35 +7,19 @@ const Footer = () => {
       <div className="w40 flexer">
         <div className="block2">
           <div className="marque">
-            <img src={require("../assets/logo.png")} alt="Vêtement cool"></img>
+            <img className="logo" src={require("../assets/Logo_final.png")} alt="Fresh and Cool"></img>
           </div>
 
           <div className="links flexer w80 marg">
             <a href="/">
-              <img
-                className="instagram"
-                src={require("../assets/insta.png")}
-                alt="Instagram"
-              ></img>
+              <img className="instagram" src={require("../assets/insta.png")} alt="Instagram"></img>
             </a>
 
             <a href="/">
-              <img
-                className="tiktok"
-                src={require("../assets/tiktok.png")}
-                alt="TikTok"
-              ></img>
-            </a>
-            <a href="/">
-              <img
-                className="fb"
-                src={require("../assets/facebook.png")}
-                alt="Facebook"
-              ></img>
-            </a>
-            <a href="/">reseaux</a>
-            <a href="/">reseaux</a>
+              <img className="tiktok" src={require("../assets/tiktok.png")} alt="TikTok"></img>
+            </a> 
           </div>
+          
         </div>
       </div>
 
@@ -43,25 +27,23 @@ const Footer = () => {
         <div className="w80 flexer">
           <div className="block">
             <div className="line">
-              <h3>Aide et info</h3>
+              <h3 className="titre_aide"> Aide et info</h3>
             </div>
 
             <div className="links">
               <ul>
                 <a href="/">
+                  <li>Commandes et Paiements</li>
+                </a>
+                
+                <a href="/">
                   <li>Suivi de commande</li>
                 </a>
                 <a href="/">
-                  <li>Livraison</li>
-                </a>
-                <a href="/">
-                  <li>Commandes et Paiements</li>
+                  <li>Nous contacter</li>
                 </a>
                 <a href="/">
                   <li>Service clients</li>
-                </a>
-                <a href="/">
-                  <li>Nous contacter</li>
                 </a>
               </ul>
             </div>
@@ -69,7 +51,7 @@ const Footer = () => {
 
           <div className="block">
             <div className="line">
-              <h3>Liens rapides</h3>
+              <h3 className="titre_aide">Liens rapides</h3>
             </div>
 
             <div className="links">
@@ -77,9 +59,7 @@ const Footer = () => {
                 <a href="/">
                   <li>Réduction Étudiants</li>
                 </a>
-                <a href="/">
-                  <li>Marques</li>
-                </a>
+                
                 <a href="/">
                   <li>Cartes Cadeaux</li>
                 </a>
@@ -92,20 +72,6 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div className="w100">
-        <div className="cg">
-          <a href="/">
-            <p>Politiques de confidentialité</p>
-          </a>
-          <a href="/">
-            <p>Conditions générales</p>
-          </a>
-          <a href="/">
-            <p>Cookies</p>
-          </a>
         </div>
       </div>
     </footer>
