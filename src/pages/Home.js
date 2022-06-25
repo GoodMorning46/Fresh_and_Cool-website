@@ -10,12 +10,9 @@ function Home() {
   return (
     <div className="Home" id="Home">
       <Header />
-      <div>
-        <p> test5</p>
-      </div>
       <div className="wrapper">
         <Card //Le tee-shirt blanc
-          img="http://assets.stickpng.com/images/580b57fbd9996e24bc43bf7b.png"
+          img="https://www.bclconcept.fr/uploads/media/product_catalog/0001/14/thumb_13328_product_catalog_large.png"
           h2="Le tee-shirt"
           alt="tee-shirt"
           p="Ce tee-shirt vous procure une sensation de fraicheur tout au long de votre journée."
