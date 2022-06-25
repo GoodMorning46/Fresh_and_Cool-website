@@ -13,7 +13,7 @@ function Home() {
       <div className="body">
         <Header />
         <div className="Texte1">
-          <h1 className="titre">Vêtement Cool</h1>
+          <h1 className="titre">Fresh and Cool</h1>
           <p className="sous-titre">
             Bienvenue chez vous, vous trouverez ici des vêtements et accessoires
             contre la chaleur. Merci aux personnes n'ayant aucune conscience
@@ -40,6 +40,7 @@ function Home() {
             p="testTerminer avec l'eau chaude au fond du sac après une rando, la fraicheur n'a pas de prix"
           />
         </div>
+        <div className="section2"></div>
       </div>
       <Footer />
     </div>
