@@ -1,4 +1,20 @@
-.products {
-  width: 90%;
-  margin: 0 auto;
+.body {
+  background-color: #1f5bfa;
+}
+
+.Texte1 {
+  text-align: center;
+  margin-top: 10%;
+  color: white;
+}
+
+.titre {
+  font-weight: bold;
+}
+
+.sous-titre{
+  width: 45%;
+  margin: auto;
+  margin-top: 2%;
+  font-size: 16px;
 }
