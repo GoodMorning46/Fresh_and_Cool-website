@@ -14,7 +14,11 @@ function Home() {
         <Header />
         <div className="Texte1">
           <h1 className="titre">Vêtement Cool</h1>
-          <p className="sous-titre">Bienvenue chez vous, vous trouverez ici des vêtements et accessoires contre la chaleur. Merci aux personnes n'ayant aucune conscience climatique... </p>
+          <p className="sous-titre">
+            Bienvenue chez vous, vous trouverez ici des vêtements et accessoires
+            contre la chaleur. Merci aux personnes n'ayant aucune conscience
+            climatique...{" "}
+          </p>
         </div>
         <div className="wrapper">
           <Card //Le tee-shirt blanc
@@ -36,7 +40,7 @@ function Home() {
             p="testTerminer avec l'eau chaude au fond du sac après une rando, la fraicheur n'a pas de prix"
           />
         </div>
-        </div>
+      </div>
       <Footer />
     </div>
   );

@@ -3,11 +3,11 @@
 }
 
 .card {
-  border: solid;
-  width: 20%;
+  border-radius: 8px;
   padding: 1%;
   margin: 10%;
   text-align: center;
+  background-color: white;
 }
 
 .card_button1 {
