@@ -16,8 +16,6 @@ function App() {
         <Route path="/event" exact component={Event} />
         <Route component={NotFound} />
       </Switch>
-    </BrowserRouter>
-  );
+    </BrowserRouter> )
 }
-
 export default App;

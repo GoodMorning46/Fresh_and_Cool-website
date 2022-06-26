@@ -9,11 +9,12 @@ function NotFound() {
         <p>
           La page que vous avez à laquelle vous tentez d'accéder n'existe pas
         </p>
-        <a href="/" title="Accueil"><button className="Back">Retourner à l'accueil</button></a>
+        <a href="/" title="Accueil">
+          <button className="Back">Retourner à l'accueil</button>
+        </a>
       </span>
       <img alt="Not Found" src={require("../assets/NotFound.png")}></img>
     </div>
-
   );
 }
 
