@@ -23,7 +23,6 @@ const Data = [
     img: "https://pullfr-4c63.kxcdn.com/pare-soleil-de-voiture-127-6-26654.png?cultureCode=fr-FR&UseBlobStorage=False&version=9eeaf768280ade624315f0908b59657d",
     desc: "Ce pare-soleil conçu avec une nouvelle technologie permettra à votre habitacle de rester frais peut importe la température extérieur.",
   },
-  
 ];
 
 export default Data;

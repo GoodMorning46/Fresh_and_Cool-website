@@ -1,24 +1,22 @@
-.img {
-  width: 40%;
-}
-
 .card {
   border-radius: 8px;
   padding: 1%;
   margin: 10%;
   text-align: center;
+  width: 20%;
   background-color: white;
 }
 
-.card_button1 {
-  padding: 2%;
-  margin-top: 3%;
-  width: 40%;
+.card_body {
+  display: flex;
+  justify-content: space-around;
 }
 
-.card_button2 {
-  padding: 2%;
-  margin-left: 7%;
-  margin-top: 3%;
-  width: 40%;
+.photo {
+  width: 100%;
 }
+
+.col-md-4 .col-sm-6 .card  {
+  height: 400px;
+}
+
