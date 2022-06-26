@@ -1,5 +1,6 @@
 import React from "react";
 import Data from "../Data";
+import "./Button.css";
 
 const Buttons = ({ filterItem, setItem, menuItems }) => {
   return (
@@ -20,26 +21,26 @@ const Buttons = ({ filterItem, setItem, menuItems }) => {
           className="btn-dark text-white p-1 px-3 mx-5 fw-bold btn"
           onClick={() => setItem(Data)}
         >
-          All
+          Tout
         </button>
 
         {/* <button
           className="btn-warning text-white p-1 mx-5"
-          onClick={() => filterItem("Breakfast")}
+          onClick={() => filterItem("Vetement")}
         >
-          Breakfast
+          Vetement
         </button>
         <button
           className="btn-warning text-white p-1 px-2 mx-5"
-          onClick={() => filterItem("Lunch")}
+          onClick={() => filterItem("Boisson")}
         >
-          Lunch
+          Boisson
         </button>
         <button
           className="btn-warning text-white p-1 mx-5"
-          onClick={() => filterItem("Dinner")}
+          onClick={() => filterItem("Voiture")}
         >
-          Dinner
+          Voiture
         </button> */}
       </div>
     </>

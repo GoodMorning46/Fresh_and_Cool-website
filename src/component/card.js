@@ -19,7 +19,6 @@ import "./card.css";
 
 // export default Card;
 
- 
 import React from "react";
 
 const Card = ({ item }) => {

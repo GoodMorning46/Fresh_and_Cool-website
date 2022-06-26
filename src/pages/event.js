@@ -5,12 +5,12 @@ import "./CSS/event.css";
 
 import Data from "../Data";
 import Card from "../component/card";
- 
+
 const Event = () => {
   const [item, setItem] = useState(Data);
   return (
     <>
-    <Header/>
+      <Header />
       <div className="container-fluid">
         <div className="row">
           <h1 className="col-12 text-center my-3 fw-bold">Our Menu</h1>
@@ -20,8 +20,6 @@ const Event = () => {
       <Footer />
     </>
   );
-  
 };
- 
-export default Event;
 
+export default Event;
