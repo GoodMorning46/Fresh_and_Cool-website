@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import "./App.css";
 import NotFound from "./pages/NotFound";
 import FAQ from "./pages/faq";
-import Event from "./pages/event";
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/faq" exact component={FAQ} />
-        <Route path="/event" exact component={Event} />
         <Route component={NotFound} />
       </Switch>
     </BrowserRouter>

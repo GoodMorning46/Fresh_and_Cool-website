@@ -14,16 +14,6 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a href="event" title="Vetement">
-                  Vêtements<div className="test"></div>
-                </a>
-              </li>
-              <li>
-                <a href="Accessoires" title="Accessoires">
-                  Accessoires<div className="test"></div>
-                </a>
-              </li>
-              <li>
                 <a href="faq" title="FAQ">
                   FAQ<div className="test"></div>
                 </a>
