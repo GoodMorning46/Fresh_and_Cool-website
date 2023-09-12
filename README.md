@@ -1,4 +1,4 @@
-# Projet de site vitrine pour une agence évementielle
+# Projet Scolaire de site vitrine pour une agence évementielle
 
 Le projet est disponible sur cette adresse (<https://fresh-and-cool.netlify.app/>).
 
